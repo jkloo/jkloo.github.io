@@ -1,24 +1,37 @@
-{ 
-    "folders":
-    [
-        {
-            "path": ".", 
-            "file_exclude_patterns":
-            [ ],
-            "folder_exclude_patterns":
-            [ ]
-        }
-    ],
-    "settings":
-    {
-        "font_size": 9,
-        "tab_size": 4,
-        "indent_spaces": true,
-        "rulers": [120],
-        "translate_tabs_to_spaces": true,
-        "trim_automatic_white_space": true,
-        "bold_folder_labels": true,
-        "ensure_newline_at_eof_on_save": true,
-        "default_line_ending": "unix"
-    }
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime-workspace",
+				"Thumbs.db",
+				".DS_Store",
+				"!.gitkeep",
+				".rbenv-version",
+				".rvmrc"
+			],
+			"folder_exclude_patterns":
+			[
+				"_site/*",
+				"_theme_packages/*"
+			],
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"bold_folder_labels": true,
+		"default_line_ending": "unix",
+		"ensure_newline_at_eof_on_save": true,
+		"font_size": 9,
+		"indent_spaces": true,
+		"rulers":
+		[
+			120
+		],
+		"tab_size": 4,
+		"translate_tabs_to_spaces": true,
+		"trim_automatic_white_space": true
+	}
 }
