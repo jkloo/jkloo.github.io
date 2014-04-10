@@ -1,7 +1,0 @@
----
-layout: post
----
-
-{% include JB/setup %}
-
-This is a test of the main page showning the most recent post
