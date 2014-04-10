@@ -1,7 +1,7 @@
 ---
 layout: page
-title: __main__
-tagline: A blog of random thoughts
+title: class
+tagline: Hopefully I learned something today...
 
 ---
 {% include JB/setup %}
